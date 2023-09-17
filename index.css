@@ -1,0 +1,73 @@
+
+header{
+    background-image: url(img/hero-bg.png);
+    background-size: cover;
+    margin-bottom: -250px;
+}
+
+
+header a{
+    margin-top: 30px;
+}
+/* about part  */
+#about{
+    padding: 250px 0px 150px;
+    background-image: url(../img/about-bg.png);
+    background-size: cover;
+    backface-visibility: hidden;
+}
+.about3-writing-part p::first-letter{
+    font-size: 30px;
+}
+#about3 img{
+    box-shadow: 10px 13px 11px #8a6161;
+}
+#about4{
+    padding: 50px 0px 100px;
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    margin-bottom: -15px;
+}
+footer h2{
+    margin: auto !important;
+    width: 200px!important;
+   
+    
+}
+
+.one{
+    position: relative;
+    bottom: 50px;
+    right: 45px;
+}
+
+.three{
+    position: relative;
+    left: px;
+    top: 10px;
+}
+.two{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.four{
+    position: relative;
+    top: 65px;
+    left: 50px;
+}
+@media (max-width:600px) {
+    .one , .two , .three , .four{
+        position: static;
+        
+    }
+}
+footer h4{
+    margin: auto;
+}
+.fs-5{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
